@@ -8,7 +8,7 @@ const io = require("socket.io")(server);
 const path = require("path");
 const colors = require("colors");
 
-app.use(express.static(path.join(__dirname + "/src")));
+app.use(express.static(path.join(__dirname)));
 
 let users = 0;
 
